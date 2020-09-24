@@ -2,6 +2,9 @@
 
 language: emacs-lisp
 
+arch:
+   - ppc64le
+   - amd64
 env:
   matrix:
     - EMACS=emacs23
